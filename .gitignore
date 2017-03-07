@@ -25,5 +25,6 @@ build
 *.VST3
 *.vst3
 *.tar.gz
+*.VC.db
 Debug
 Release
