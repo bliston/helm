@@ -543,8 +543,8 @@
 		474569B24F8BEEC4E965674B = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_ScopedWriteLock.h"; path = "../../JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h"; sourceTree = "SOURCE_ROOT"; };
 		4D8A838542D61C7AC42FA75A = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "midi_lookup.h"; path = "../../mopo/src/midi_lookup.h"; sourceTree = "SOURCE_ROOT"; };
 		54B9C0FCBE122E8F1E96734D = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = operators.h; path = ../../mopo/src/operators.h; sourceTree = "SOURCE_ROOT"; };
-		5684D867B375509C886F7B06 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helm.vst; sourceTree = "BUILT_PRODUCTS_DIR"; };
-		2801D896A423C24FB939EBE6 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helm.component; sourceTree = "BUILT_PRODUCTS_DIR"; };
+		5684D867B375509C886F7B06 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Synth Instrument.vst"; sourceTree = "BUILT_PRODUCTS_DIR"; };
+		2801D896A423C24FB939EBE6 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Synth Instrument.component"; sourceTree = "BUILT_PRODUCTS_DIR"; };
 		3C1A95D89CB618E9A37A9294 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3CC8C24FD9D763CA4EAF7792 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "noise_section.h"; path = "../../src/editor_sections/noise_section.h"; sourceTree = "SOURCE_ROOT"; };
 		3DDA1073CD22FEC43E79EE17 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_ToneGeneratorAudioSource.h"; path = "../../JUCE/modules/juce_audio_basics/sources/juce_ToneGeneratorAudioSource.h"; sourceTree = "SOURCE_ROOT"; };
@@ -1266,10 +1266,9 @@
 		BF4063666D77739B03D263C7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_MenuBarComponent.cpp"; path = "../../JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.cpp"; sourceTree = "SOURCE_ROOT"; };
 		BF4DEE6BC0D5CFD753E5018C = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = "../../JUCE/modules/juce_core/zip/zlib/inffast.c"; sourceTree = "SOURCE_ROOT"; };
 		BF7C651C35F31327346047A4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_RuntimePermissions.h"; path = "../../JUCE/modules/juce_core/misc/juce_RuntimePermissions.h"; sourceTree = "SOURCE_ROOT"; };
-		BF905E2B9732571A1E854145 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HelmPlugin.entitlements; path = HelmPlugin.entitlements; sourceTree = "SOURCE_ROOT"; };
 		BFE76AF75960AB4789564384 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pngwio.c; path = "../../JUCE/modules/juce_graphics/image_formats/pnglib/pngwio.c"; sourceTree = "SOURCE_ROOT"; };
 		C020977039462878CC5112D7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_PropertySet.cpp"; path = "../../JUCE/modules/juce_core/containers/juce_PropertySet.cpp"; sourceTree = "SOURCE_ROOT"; };
-		C067F5E592D8433D02092111 = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhelm.a; sourceTree = "BUILT_PRODUCTS_DIR"; };
+		C067F5E592D8433D02092111 = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSynth Instrument.a"; sourceTree = "BUILT_PRODUCTS_DIR"; };
 		C091EFE2C55D8ED74CE30DF9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "juce_ios_MessageManager.mm"; path = "../../JUCE/modules/juce_events/native/juce_ios_MessageManager.mm"; sourceTree = "SOURCE_ROOT"; };
 		C0B23E828E5E958DD75802B6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_LassoComponent.h"; path = "../../JUCE/modules/juce_gui_basics/mouse/juce_LassoComponent.h"; sourceTree = "SOURCE_ROOT"; };
 		C0BE15D7AF4CD56493EF7624 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_CharacterFunctions.cpp"; path = "../../JUCE/modules/juce_core/text/juce_CharacterFunctions.cpp"; sourceTree = "SOURCE_ROOT"; };
@@ -1602,6 +1601,7 @@
 		F8A7D6EDE531C3BA45B59DFD = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "reverb_section.cpp"; path = "../../src/editor_sections/reverb_section.cpp"; sourceTree = "SOURCE_ROOT"; };
 		F8B4D2B786A9231F064D4FDC = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_QuickTimeAudioFormat.cpp"; path = "../../JUCE/modules/juce_audio_formats/codecs/juce_QuickTimeAudioFormat.cpp"; sourceTree = "SOURCE_ROOT"; };
 		F9771FE9FF95EE4B383F8E9A = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pngset.c; path = "../../JUCE/modules/juce_graphics/image_formats/pnglib/pngset.c"; sourceTree = "SOURCE_ROOT"; };
+		F988D73E4A564E1D9EAA65E0 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Synth Instrument.entitlements"; path = "Synth Instrument.entitlements"; sourceTree = "SOURCE_ROOT"; };
 		F9B89837B9BFE960FE44B853 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_ThreadPool.h"; path = "../../JUCE/modules/juce_core/threads/juce_ThreadPool.h"; sourceTree = "SOURCE_ROOT"; };
 		FA0D7EC04BA48D80B162A8BF = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_AudioCDBurner.h"; path = "../../JUCE/modules/juce_audio_utils/audio_cd/juce_AudioCDBurner.h"; sourceTree = "SOURCE_ROOT"; };
 		FA2D8E22EFEA1D84A049B1F3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_Reverb.h"; path = "../../JUCE/modules/juce_audio_basics/effects/juce_Reverb.h"; sourceTree = "SOURCE_ROOT"; };
@@ -1909,7 +1909,7 @@
 					1FC658771DBF90172052E6B5,
 					C4ED9BBBF0452D8D64FBC5E1,
 					909056EFC28FEAF753F91831,
-					033892D93A1DFF24698FF130, ); name = HelmPlugin; sourceTree = "<group>"; };
+					033892D93A1DFF24698FF130, ); name = "Synth Instrument"; sourceTree = "<group>"; };
 		2B067F789708271F4A545464 = {isa = PBXGroup; children = (
 					E073C1390FB67EA0F3660B6E,
 					F1A29D1680A8F5F213DDAEAB,
@@ -3394,7 +3394,7 @@
 					2801D896A423C24FB939EBE6,
 					C067F5E592D8433D02092111, ); name = Products; sourceTree = "<group>"; };
 		98F1FCB5DC3DD869395E33CF = {isa = PBXGroup; children = (
-					BF905E2B9732571A1E854145,
+					F988D73E4A564E1D9EAA65E0,
 					BEEF6553A7217CDC7C970E98,
 					BA73E1EC42742BF700C44C2F,
 					102F0AB4D8EC78294A115535,
@@ -3426,8 +3426,8 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=0.8.6",
-					"JUCE_APP_VERSION_HEX=0x806", );
+					"JUCE_APP_VERSION=0.0.1",
+					"JUCE_APP_VERSION_HEX=0x1", );
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "../../JUCE/modules", "$(inherited)");
@@ -3436,8 +3436,8 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				OTHER_LDFLAGS = "-bundle -lhelm";
-				PRODUCT_BUNDLE_IDENTIFIER = org.tytel.helmplugin;
+				OTHER_LDFLAGS = "-bundle -lSynth\\ Instrument";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.songwish.synth-instrument;
 				SDKROOT_ppc = macosx10.5;
 				WRAPPER_EXTENSION = vst; }; name = Debug; };
 		DEE91FC701A84F2BF2584C38 = {isa = XCBuildConfiguration; buildSettings = {
@@ -3464,8 +3464,8 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=0.8.6",
-					"JUCE_APP_VERSION_HEX=0x806", );
+					"JUCE_APP_VERSION=0.0.1",
+					"JUCE_APP_VERSION_HEX=0x1", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
@@ -3475,8 +3475,8 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				OTHER_LDFLAGS = "-bundle -lhelm";
-				PRODUCT_BUNDLE_IDENTIFIER = org.tytel.helmplugin;
+				OTHER_LDFLAGS = "-bundle -lSynth\\ Instrument";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.songwish.synth-instrument;
 				SDKROOT_ppc = macosx10.5;
 				WRAPPER_EXTENSION = vst; }; name = Release; };
 		F083414384656A9AD503222D = {isa = XCBuildConfiguration; buildSettings = {
@@ -3502,8 +3502,8 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=0.8.6",
-					"JUCE_APP_VERSION_HEX=0x806", );
+					"JUCE_APP_VERSION=0.0.1",
+					"JUCE_APP_VERSION_HEX=0x1", );
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "../../JUCE/modules", "$(inherited)");
@@ -3512,9 +3512,9 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				OTHER_LDFLAGS = "-bundle -lhelm";
+				OTHER_LDFLAGS = "-bundle -lSynth\\ Instrument";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
-				PRODUCT_BUNDLE_IDENTIFIER = org.tytel.helmplugin;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.songwish.synth-instrument;
 				SDKROOT_ppc = macosx10.5;
 				WRAPPER_EXTENSION = component; }; name = Debug; };
 		A0F6703661B893BBE8FB7E11 = {isa = XCBuildConfiguration; buildSettings = {
@@ -3541,8 +3541,8 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=0.8.6",
-					"JUCE_APP_VERSION_HEX=0x806", );
+					"JUCE_APP_VERSION=0.0.1",
+					"JUCE_APP_VERSION_HEX=0x1", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
@@ -3552,9 +3552,9 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				OTHER_LDFLAGS = "-bundle -lhelm";
+				OTHER_LDFLAGS = "-bundle -lSynth\\ Instrument";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
-				PRODUCT_BUNDLE_IDENTIFIER = org.tytel.helmplugin;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.songwish.synth-instrument;
 				SDKROOT_ppc = macosx10.5;
 				WRAPPER_EXTENSION = component; }; name = Release; };
 		A68B5D480BCF5AB3FD009D05 = {isa = XCBuildConfiguration; buildSettings = {
@@ -3579,14 +3579,14 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=0.8.6",
-					"JUCE_APP_VERSION_HEX=0x806", );
+					"JUCE_APP_VERSION=0.0.1",
+					"JUCE_APP_VERSION_HEX=0x1", );
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "../../JUCE/modules", "$(inherited)");
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = org.tytel.helmplugin;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.songwish.synth-instrument;
 				SDKROOT_ppc = macosx10.5; }; name = Debug; };
 		0304791FD0932D5626A7BDC9 = {isa = XCBuildConfiguration; buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -3611,15 +3611,15 @@
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=0.8.6",
-					"JUCE_APP_VERSION_HEX=0x806", );
+					"JUCE_APP_VERSION=0.0.1",
+					"JUCE_APP_VERSION_HEX=0x1", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = ("../../JuceLibraryCode", "../../JUCE/modules", "$(inherited)");
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = org.tytel.helmplugin;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.songwish.synth-instrument;
 				SDKROOT_ppc = macosx10.5; }; name = Release; };
 		55595E4488470A38A5027542 = {isa = XCBuildConfiguration; buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3634,7 +3634,7 @@
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME = "helm";
+				PRODUCT_NAME = "Synth Instrument";
 				WARNING_CFLAGS = -Wreorder;
 				ZERO_LINK = NO; }; name = Debug; };
 		E1A9F57CB71E747B04294E62 = {isa = XCBuildConfiguration; buildSettings = {
@@ -3649,7 +3649,7 @@
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME = "helm";
+				PRODUCT_NAME = "Synth Instrument";
 				WARNING_CFLAGS = -Wreorder;
 				ZERO_LINK = NO; }; name = Release; };
 		00F8AF128541DBA7F8BA6316 = {isa = PBXTargetDependency; target = 04C62C3EDEE68AB6BB542024; };
@@ -3666,7 +3666,7 @@
 					3523AFB40D142924D64EC74F, ); buildRules = ( ); dependencies = (
 					00F8AF128541DBA7F8BA6316,
 					209A9620A0F18F87F66E577D,
-					5904F373F5F7BD0C3893A795, ); name = "HelmPlugin (All)"; productName = HelmPlugin; };
+					5904F373F5F7BD0C3893A795, ); name = "Synth Instrument (All)"; productName = "Synth Instrument"; };
 		75A6E8C066609FD80E69D3F8 = {isa = XCConfigurationList; buildConfigurations = (
 					477BAFC49C6DA855D64D1E22,
 					DEE91FC701A84F2BF2584C38, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
@@ -3691,7 +3691,7 @@
 					CADA2D7D61C6E14B18335B5F,
 					3D1F5E31B642CFC9096ED44B,
 					E26447E590FDA3407ABEB891, ); buildRules = ( ); dependencies = (
-					5904F373F5F7BD0C3893A795, ); name = "HelmPlugin (VST)"; productName = HelmPlugin; productReference = 5684D867B375509C886F7B06; productType = "com.apple.product-type.bundle"; };
+					5904F373F5F7BD0C3893A795, ); name = "Synth Instrument (VST)"; productName = "Synth Instrument"; productReference = 5684D867B375509C886F7B06; productType = "com.apple.product-type.bundle"; };
 		5AC33FDA43FAF3DFA2EC90A4 = {isa = XCConfigurationList; buildConfigurations = (
 					F083414384656A9AD503222D,
 					A0F6703661B893BBE8FB7E11, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
@@ -3722,7 +3722,7 @@
 					FC98AB2AB81BE8175E834D66,
 					418147864AFF3E316B6DDB83,
 					2D57413EA29BD506A68F8F20, ); buildRules = ( ); dependencies = (
-					5904F373F5F7BD0C3893A795, ); name = "HelmPlugin (AU)"; productName = HelmPlugin; productReference = 2801D896A423C24FB939EBE6; productType = "com.apple.product-type.bundle"; };
+					5904F373F5F7BD0C3893A795, ); name = "Synth Instrument (AU)"; productName = "Synth Instrument"; productReference = 2801D896A423C24FB939EBE6; productType = "com.apple.product-type.bundle"; };
 		63A9192D9987E1653676E562 = {isa = XCConfigurationList; buildConfigurations = (
 					A68B5D480BCF5AB3FD009D05,
 					0304791FD0932D5626A7BDC9, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
@@ -3849,7 +3849,7 @@
 		13EFEFAABD681D4644787FBB = {isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = (  ); runOnlyForDeploymentPostprocessing = 0; name = "Post-build script"; shellPath = /bin/sh; shellScript = "\n# This script takes the build product and copies it to the AU, VST, VST3, RTAS and AAX folders, depending on \n# which plugin types you've built\n\noriginal=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME\n\n# this looks inside the binary to detect which platforms are needed.. \ncopyAU=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'AudioUnit' | wc -l`\ncopyVST=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'VSTPlugin' | wc -l`\ncopyVST3=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'GetPluginFactory' | wc -l`\ncopyRTAS=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'CProcess' | wc -l`\ncopyAAX=`nm -g \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH\" | grep -i 'ACFStartup' | wc -l`\n\nif [ $copyAU -gt 0 ]; then\n  echo \"Copying to AudioUnit folder...\"\n  AU=~/Library/Audio/Plug-Ins/Components/$PRODUCT_NAME.component\n  if [ -d \"$AU\" ]; then \n    rm -r \"$AU\"\n  fi\n\n  cp -r \"$original\" \"$AU\"\n  sed -i \"\" -e 's/TDMwPTul/BNDLPTul/g' \"$AU/Contents/PkgInfo\"\n  sed -i \"\" -e 's/TDMw/BNDL/g' \"$AU/Contents/$INFOPLIST_FILE\"\n\n  # Fix info.plist for AUs built with Xcode 3\n  if [ -f \"$DEVELOPER_DIR/Library/Developer/CoreAudio/AudioUnits/AUPublic/AUBase/AUPlugInDispatch.cpp\" ]; then\n    echo\n  else\n    echo \"Removing AudioComponents entry from Info.plist because this is not a new-format AU\"\n    /usr/libexec/PlistBuddy -c \"Delete AudioComponents\" \"$AU/Contents/Info.plist\"\n  fi\nfi\n\nif [ $copyVST -gt 0 ]; then\n  echo \"Copying to VST folder...\"\n  VST=~/Library/Audio/Plug-Ins/VST/$PRODUCT_NAME.vst\n  if [ -d \"$VST\" ]; then \n    rm -r \"$VST\"\n  fi\n\n  cp -r \"$original\" \"$VST\"\n  sed -i \"\" -e 's/TDMwPTul/BNDLPTul/g' \"$VST/Contents/PkgInfo\"\n  sed -i \"\" -e 's/TDMw/BNDL/g' \"$VST/Contents/$INFOPLIST_FILE\"\nfi\n\nif [ $copyVST3 -gt 0 ]; then\n  echo \"Copying to VST3 folder...\"\n  VST3=~/Library/Audio/Plug-Ins/VST3/$PRODUCT_NAME.vst3\n  if [ -d \"$VST3\" ]; then \n    rm -r \"$VST3\"\n  fi\n\n  cp -r \"$original\" \"$VST3\"\n  sed -i \"\" -e 's/TDMwPTul/BNDLPTul/g' \"$VST3/Contents/PkgInfo\"\n  sed -i \"\" -e 's/TDMw/BNDL/g' \"$VST3/Contents/$INFOPLIST_FILE\"\nfi\n\nif [ $copyRTAS -gt 0 ]; then\n  echo \"Copying to RTAS folder...\"\n  RTAS=/Library/Application\\ Support/Digidesign/Plug-Ins/$PRODUCT_NAME.dpm\n  if [ -d \"$RTAS\" ]; then\n    rm -r \"$RTAS\"\n  fi\n\n  cp -r \"$original\" \"$RTAS\"\nfi\n\nif [ $copyAAX -gt 0 ]; then\n  echo \"Copying to AAX folder...\"\n\n  if [ -d \"/Applications/ProTools_3PDev/Plug-Ins\" ]; then\n    AAX1=\"/Applications/ProTools_3PDev/Plug-Ins/$PRODUCT_NAME.aaxplugin\"\n\n    if [ -d \"$AAX1\" ]; then\n      rm -r \"$AAX1\"\n    fi\n\n    cp -R -H \"$original\" \"$AAX1\"\n  fi\n\n  if [ -d \"/Library/Application Support/Avid/Audio/Plug-Ins\" ]; then\n    AAX2=\"/Library/Application Support/Avid/Audio/Plug-Ins/$PRODUCT_NAME.aaxplugin\"\n\n    if [ -d \"$AAX2\" ]; then\n      rm -r \"$AAX2\"\n    fi\n\n    cp -R -H \"$original\" \"$AAX2\"\n  fi\nfi\n"; };
 		995510783F0DBDE21AB02443 = {isa = PBXNativeTarget; buildConfigurationList = 63A9192D9987E1653676E562; buildPhases = (
 					96647DBDB31C8CB42822EB56,
-					13EFEFAABD681D4644787FBB, ); buildRules = ( ); dependencies = (  ); name = "HelmPlugin (Shared Code)"; productName = HelmPlugin; productReference = C067F5E592D8433D02092111; productType = "com.apple.product-type.library.static"; };
+					13EFEFAABD681D4644787FBB, ); buildRules = ( ); dependencies = (  ); name = "Synth Instrument (Shared Code)"; productName = "Synth Instrument"; productReference = C067F5E592D8433D02092111; productType = "com.apple.product-type.library.static"; };
 		1274150799E95CB43F035F74 = {isa = PBXProject; buildConfigurationList = BE49DC8D2B264DCFD2D03E8A; attributes = { LastUpgradeCheck = 0440; TargetAttributes = { DDA3E4C82DD636A6B1B37767 = { SystemCapabilities = {com.apple.InAppPurchase = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; }; };04C62C3EDEE68AB6BB542024 = { SystemCapabilities = {com.apple.InAppPurchase = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; }; };C2D01B9344ECB5A5F8D03D03 = { SystemCapabilities = {com.apple.InAppPurchase = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; }; };995510783F0DBDE21AB02443 = { SystemCapabilities = {com.apple.InAppPurchase = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; }; }; }; }; compatibilityVersion = "Xcode 3.2"; hasScannedForEncodings = 0; mainGroup = 98F1FCB5DC3DD869395E33CF; projectDirPath = ""; projectRoot = ""; targets = (DDA3E4C82DD636A6B1B37767, 04C62C3EDEE68AB6BB542024, C2D01B9344ECB5A5F8D03D03, 995510783F0DBDE21AB02443); };
 	};
 	rootObject = 1274150799E95CB43F035F74;

@@ -2,15 +2,15 @@
 
 <JUCERPROJECT id="C9WuMW" name="HelmPlugin" projectType="audioplug" version="0.8.6"
               bundleIdentifier="org.tytel.helmplugin" includeBinaryInAppConfig="1"
-              buildVST="1" buildVST3="1" buildAU="1" buildRTAS="0" buildAAX="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildRTAS="0" buildAAX="0"
               pluginName="Helm" pluginDesc="" pluginManufacturer="Matt Tytel"
               pluginManufacturerCode="Tyte" pluginCode="Helm" pluginChannelConfigs="{0, 1}, {0, 2}"
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
               pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="0"
               pluginAUExportPrefix="helm" pluginRTASCategory="" aaxIdentifier="org.tytel.helm"
-              pluginAAXCategory="AAX_ePlugInCategory_SWGenerators" jucerVersion="4.1.0"
+              pluginAAXCategory="AAX_ePlugInCategory_SWGenerators" jucerVersion="4.3.1"
               companyName="Matt Tytel" companyEmail="matthewtytel@gmail.com"
-              companyWebsite="tytel.org" pluginIsMidiEffectPlugin="0">
+              companyWebsite="tytel.org" pluginIsMidiEffectPlugin="0" buildAUv3="0">
   <MAINGROUP id="OwcEM5" name="HelmPlugin">
     <GROUP id="{600DADF0-4925-DDC4-81CF-48B3BAC03E18}" name="concurrentqueue">
       <FILE id="eNsxUt" name="blockingconcurrentqueue.h" compile="0" resource="0"
@@ -514,18 +514,18 @@
                        isDebug="0" optimisation="3" targetName="helm" headerPath="../../concurrentqueue&#10;../../mopo/src&#10;../../src&#10;../../src/common&#10;../../src/editor_components&#10;../../src/editor_sections&#10;../../src/look_and_feel&#10;../../src/standalone&#10;../../src/synthesis"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_gui_basics" path="JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="..\JUCE\modules"/>
       </MODULEPATHS>
     </VS2015>
   </EXPORTFORMATS>
